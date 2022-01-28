@@ -78,7 +78,7 @@ section, footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
 }
 
 /*Nav Styles */ 
@@ -167,7 +167,7 @@ nav {
     align-items: center;
     justify-content: center;
     width: 18%;
-  height: 275px;
+  height: 14.13em
 }
 
 #box-1 {
@@ -251,6 +251,7 @@ footer nav {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin-bottom: 3%;
 }
 
 .img-cont img {
