@@ -230,6 +230,41 @@ footer nav {
     color: white;
 }
 /*About Page Styles*/
+.img-banner img {
+    object-fit: cover;
+}
 
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap:  1%
+    
+}
+.card {
+    width: 48%;
+    padding: 2% 0;
+    border-bottom: 2px solid #ff4b00;
+}
+
+.img-cont {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-cont img {
+    width: 100%;
+}
+
+.text-cont h2 {
+    text-align: start;
+}
+
+.txt-bottom {
+    text-align: start;
+    /* display: flex;
+    justify-content: start; */
+}
 
 /*Responsive Styles*/
